@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+.quantity-controls {
+    display: flex;
+    gap: 5px;
+}
+.quantity-button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#order-display {
+    margin-top: 20px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    margin: 20px auto;
+}
+.item-name-button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#cameraView {
+    width: 320px;
+    height: 240px;
+    display: none;
+    margin-top: 10px;
+}
